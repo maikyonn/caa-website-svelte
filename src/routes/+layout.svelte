@@ -5,17 +5,14 @@
 <div class="global">
 	<div class="navbar">
 		<div class="flex-1">
-			<a class="btn btn-ghost font-bold text-3xl title">cal animage alpha</a>
+			<a class="btn btn-ghost font-bold text-3xl title">CAA Art Mart</a>
 		</div>
 		<div class="flex-none">
 			<ul class="menu menu-horizontal px-1">
-				<li><a>Art Mart</a></li>
-				<li><a>Maid Cafe</a></li>
-				<li><a>Konshuu</a></li>
-				<li><a>About</a></li>
-				<li>
+				<li class="hidden lg:block"><a>Art Mart</a></li>
+				<li class="hidden lg:block">
 					<details>
-						<summary> Parent </summary>
+						<summary>Other Links</summary>
 						<ul class="p-2 bg-base-100 rounded-t-none">
 							<li><a>Art Mart</a></li>
 							<li><a>Maid Cafe</a></li>
