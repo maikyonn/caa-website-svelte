@@ -16,7 +16,7 @@
 		<!-- Menu for mobile -->
 		<div class="dropdown dropdown-end sm:hidden">
 			<button class="btn btn-ghost">
-				<i class="fa-solid fa-bars text-lg"></i>
+				<i class="fa-solid fa-bars text-lg"><Icon icon="humbleicons:bars" /></i>
 			</button>
 
 			<ul
@@ -25,19 +25,9 @@
 			>
 				<li><a href="/cafe">Maid Cafe</a></li>
 				<li><a href="https://issuu.com/konshuu-caa">Konshuu</a></li>
-
-				<li>
-					<h2 class="menu-title"><Icon icon="humbleicons:bars" /></h2>
-					<ul>
-						<li><a href="artmart">Art Mart</a></li>
-						<li><a href="https://cal.moe/animedestiny">Anime Destiny</a></li>
-						<li><a>About</a></li>
-					</ul>
-				</li>
-				<a class="btn btn-primary btn-sm">
-					<i class="fa-solid fa-rocket"></i>
-					Access
-				</a>
+				<li><a href="artmart">Art Mart</a></li>
+				<li><a href="https://cal.moe/animedestiny">Anime Destiny</a></li>
+				<li><a>About</a></li>
 			</ul>
 		</div>
 
