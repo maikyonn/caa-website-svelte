@@ -1,32 +1,77 @@
 <script>
 	import '../app.css';
+	import Icon from '@iconify/svelte';
 </script>
 
 <div class="global">
-	<div class="navbar">
-		<div class="flex-1">
-			<a class="btn btn-ghost font-bold text-3xl title" href="/"
-				>Cal Animage Alpha <img class="logo" src="/bwcallogo.svg" /></a
-			>
-		</div>
-		<div class="flex-none">
-			<ul class="menu menu-horizontal px-1">
-				<li class="hidden lg:block"><a href="/cafe">Maid Cafe</a></li>
-				<li class="hidden lg:block"><a href="https://issuu.com/konshuu-caa">Konshuu</a></li>
+	<!-- Navbar -->
+	<nav class="navbar justify-between">
+		<!-- Logo -->
+		<a class=" btn btn-ghost font-bold text-3xl title" href="/"
+			><div class="hidden lg:block">Cal Animage Alpha</div>
+			<div class="sm:block md:block lg:hidden">CAA</div>
+			<img class="logo" src="/bwcallogo.svg" /></a
+		>
 
-				<li class="hidden lg:block">
-					<details>
-						<summary>Other Links</summary>
-						<ul class="p-2 bg-base-100 rounded-t-none">
-							<li><a href="artmart">Art Mart</a></li>
-							<li><a href="https://cal.moe/animedestiny">Anime Destiny</a></li>
-							<li><a>About</a></li>
-						</ul>
-					</details>
+		<!-- Menu for mobile -->
+		<div class="dropdown dropdown-end sm:hidden">
+			<button class="btn btn-ghost">
+				<i class="fa-solid fa-bars text-lg"></i>
+			</button>
+
+			<ul
+				tabindex="0"
+				class="dropdown-content menu z-[1] bg-base-200 p-4 rounded-box shadow w-64 gap-2"
+			>
+				<li><a href="/cafe">Maid Cafe</a></li>
+				<li><a href="https://issuu.com/konshuu-caa">Konshuu</a></li>
+
+				<li>
+					<h2 class="menu-title"><Icon icon="humbleicons:bars" /></h2>
+					<ul>
+						<li><a href="artmart">Art Mart</a></li>
+						<li><a href="https://cal.moe/animedestiny">Anime Destiny</a></li>
+						<li><a>About</a></li>
+					</ul>
 				</li>
+				<a class="btn btn-primary btn-sm">
+					<i class="fa-solid fa-rocket"></i>
+					Access
+				</a>
 			</ul>
 		</div>
-	</div>
+
+		<!-- Menu for desktop -->
+		<div class="hidden sm:flex gap-2">
+			<a class="btn btn-ghost btn-sm" href="/cafe">
+				<i class="fa-solid fa-circle-info text-secondary"></i>
+				Maid Cafe
+			</a>
+
+			<a class="btn btn-ghost btn-sm" href="https://issuu.com/konshuu-caa">
+				<i class="fa-solid fa-users text-secondary"></i>
+				Konshuu
+			</a>
+
+			<!-- Dropdown menu -->
+			<div class="dropdown dropdown-end">
+				<button class="btn btn-ghost btn-sm">
+					<i class="fa-solid fa-fire text-secondary"></i>
+					<Icon icon="humbleicons:bars" />
+					<i class="fa-solid fa-chevron-down"></i>
+				</button>
+
+				<ul
+					tabindex="0"
+					class="dropdown-content menu z-[1] bg-base-200 p-6 rounded-box shadow w-56 gap-2"
+				>
+					<li><a href="artmart">Art Mart</a></li>
+					<li><a href="https://cal.moe/animedestiny">Anime Destiny</a></li>
+					<li><a>About</a></li>
+				</ul>
+			</div>
+		</div>
+	</nav>
 
 	<slot />
 </div>

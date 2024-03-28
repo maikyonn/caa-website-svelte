@@ -8,7 +8,7 @@
 </script>
 
 <div class="flex justify-center my-8">
-	<div class="flex flex-col items-center text-center gap-6 max-w-7xl mx-8">
+	<div class="flex flex-col items-center text-center gap-6 max-w-6xl mx-8">
 		<!-- Card -->
 		<img
 			class=" rounded-box h-96 w-7xl"
@@ -21,11 +21,16 @@
 			<span class="text-accent">Anime Club</span>
 		</h1>
 
-		<span> Cal Animage (Anime, Manga, Games), is UC Berkeley's largest anime club</span>
+		<span class="w-3xl">
+			Established in 1992, Cal Animage (Anime, Manga, Games), is UC Berkeley's hub for anime and
+			manga fans! We host weekly anime showings, game nights, and other socials to bring together
+			the diverse anime community of UC Berkeley.
+		</span>
 
-		<div class="flex gap-4">
+		<div class="flex gap-4 mb-8">
 			<a class="btn btn-secondary" href="https://discord.gg/89m6XgqcDu">Join our Discord </a>
 		</div>
+		<div class="divider"></div>
 	</div>
 </div>
 
