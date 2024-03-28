@@ -4,7 +4,7 @@
 	import Icon from '@iconify/svelte';
 
 	export let data;
-	console.log(data.meetings_info[0]);
+	console.log(data.meetings_info);
 </script>
 
 <div class="flex justify-center my-8">
@@ -80,8 +80,7 @@
 										<Icon icon="subway:location" />
 										{meeting.location}
 										<Icon icon="eva:clock-outline" />
-										{new Date(meeting.time).getMonth() + 1}/{new Date(meeting.time).getDate()}
-										{new Date(meeting.time).getHours() % 12}PM
+										{meeting.time}
 									</div>
 
 									<!-- Content -->
