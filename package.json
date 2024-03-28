@@ -12,6 +12,7 @@
 		"format": "prettier --write ."
 	},
 	"devDependencies": {
+		"@iconify/svelte": "^3.1.6",
 		"@sveltejs/adapter-auto": "^3.0.0",
 		"@sveltejs/adapter-vercel": "^5.1.0",
 		"@sveltejs/kit": "^2.0.0",
@@ -32,10 +33,13 @@
 		"tailwindcss": "^3.4.1",
 		"tslib": "^2.4.1",
 		"typescript": "^5.0.0",
+		"unplugin-icons": "^0.18.5",
 		"vite": "^5.0.3"
 	},
 	"type": "module",
 	"dependencies": {
+		"@splidejs/splide": "^4.1.4",
+		"@splidejs/svelte-splide": "^0.2.9",
 		"@supabase/supabase-js": "^2.39.7"
 	}
 }

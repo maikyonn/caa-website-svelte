@@ -1,9 +1,9 @@
 import { supabase } from '$lib/supabaseClient';
 
 export async function load() {
-	let { data: ArtMartArtists, error } = await supabase.from('ArtMartArtists').select('*');
+	let { data: club_meetings, error } = await supabase.from('club_meetings').select('*');
 
 	return {
-		artists: ArtMartArtists
+		meetings_info: club_meetings
 	};
 }
