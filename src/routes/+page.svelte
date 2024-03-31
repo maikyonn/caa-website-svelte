@@ -54,7 +54,7 @@
 							640: {
 								perPage: 1,
 								padding: 0,
-								heightRatio: 0.9,
+								heightRatio: 1,
 								width: '90vw'
 							},
 							1024: {
@@ -70,7 +70,7 @@
 						<SplideSlide>
 							<div class="flex flex-col h-full">
 								<!-- Image -->
-								<img class="rounded-t-box h-36 grow-0" src={meeting.image} alt="artmart" />
+								<img class="rounded-t-box h-2/5 grow-0" src={meeting.image} alt="artmart" />
 
 								<!-- Status -->
 								<div class="grow">
@@ -151,7 +151,7 @@
 
 <style>
 	card-img {
-		max-height: 200px;
+		max-height: 30rem;
 		width: 100%;
 	}
 	.hero {

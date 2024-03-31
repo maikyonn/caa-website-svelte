@@ -19,15 +19,11 @@
 				<i class="fa-solid fa-bars text-lg"><Icon icon="humbleicons:bars" /></i>
 			</button>
 
-			<ul
-				tabindex="0"
-				class="dropdown-content menu z-[1] bg-base-200 p-4 rounded-box shadow w-64 gap-2"
-			>
+			<ul class="dropdown-content menu z-[1] bg-base-200 p-4 rounded-box shadow w-64 gap-2">
 				<li><a href="/cafe">Maid Cafe</a></li>
 				<li><a href="https://issuu.com/konshuu-caa">Konshuu</a></li>
 				<li><a href="artmart">Art Mart</a></li>
 				<li><a href="https://cal.moe/animedestiny">Anime Destiny</a></li>
-				<li><a>About</a></li>
 			</ul>
 		</div>
 

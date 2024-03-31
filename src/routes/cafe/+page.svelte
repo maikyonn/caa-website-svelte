@@ -4,33 +4,59 @@
 	export let data: PageData;
 </script>
 
-<div class="hero h-full w-full">
+<html data-theme="cupcake"></html>
+
+<div class="hero min-h-full w-full">
 	<div class="hero-overlay bg-opacity-60"></div>
-	<div class="hero-content text-center text-neutral-content py-8 w-full">
+	<div class="hero-content text-center py-8 w-full h-full">
 		<div class="">
 			<div class="flex flex-col items-center justify-center w-full">
-				<h1 class="text-4xl font-bold py-6">Upcoming Meetings</h1>
-				<div class="card bg-base-300 rounded-box p-8">
-					<div class="text-2xl font-extrabold">What is CAA Maid Cafe? ~★</div>
+				<h1 class="text-8xl font-bold text-secondary py-6">CAA Maid Cafe 2024</h1>
+				<div class="card bg-white rounded-box p-8 bg-opacity-80">
+					<div class="text-4xl font-extrabold">What is the CAA Maid Cafe? ~★</div>
+					<div class="flex flex-col items-center my-8">
+						<div class="w-5/6">
+							<div class=" carousel w-full">
+								<div id="item1" class="carousel-item w-full">
+									<img
+										src="https://cdn.discordapp.com/attachments/1157046777023844374/1222612058239930481/Menu_1.png?ex=6616d935&is=66046435&hm=331ccfe1c04cc6e673f51bbda25d135bdae57181152cd0b6cdb840463bbb394a&"
+										class="w-full"
+									/>
+								</div>
+								<div id="item2" class="carousel-item w-full">
+									<img
+										src="https://cdn.discordapp.com/attachments/1157046777023844374/1222612058898563185/Menu_2.png?ex=6616d935&is=66046435&hm=f021f84f94385315b84037e1f1996fdd0a75082a6bce182ea02f56c52b813352&"
+										class="w-full"
+									/>
+								</div>
+							</div>
+
+							<div class="flex justify-center w-full py-2 gap-2">
+								<a href="#item1" class="btn btn-xs">1</a>
+								<a href="#item2" class="btn btn-xs">2</a>
+							</div>
+						</div>
+					</div>
 					<div class="font-bold">
 						Details: 4/10 ・ 5-9pm ・ <a href="https://maps.app.goo.gl/iyqaErJgwmztXJHL9"
 							>Uji Time Dessert (2575 Telegraph Ave, Berkeley, CA 94704)</a
 						>
 					</div>
 					<div>
-						{`Okaerinasaimase goshujin-sama~~~ ♡＼(￣▽￣)／♡
-
-Welcome to Cal Animage Alpha’s maid café! I’m so happy you’re here (≧▽≦)
-
-It would make me even happier if I got to see you all in-person 👉👈
-I'll be waiting for you at Uji Time on Monday April 10 from 5-9pm, just a few blocks down telegraph from UC Berkeley campus - I’m super excited to serve you >////<
-
-If you wanna support me and let me call you master, then purchase your tickets here: https://forms.gle/WvjqKsm1iRfGXkjMA °˖✧◝(⁰▿⁰)◜✧˖°
-
-For only $15, you can come and play fun games with me~ And if you bring 2 more of your friends I'll give you a special deal and let you buy 3 tickets for just $40 (｡•̀ᴗ-)✧
-
-Besides having my full attention for an hour, each ticket comes with $10 worth of really yummy Uji Time food / drinks at a discounted price! Of course, if you want even more of our super delicious desserts, my friends at Uji Time will be happy to let you purchase to your heart's content ♡(◕ᗜ◕✿)
-`}
+						Cal Animage Alpha’s “Maid Café” collaboration event with Uji Time Dessert, happening at
+						2575 Telegraph Ave, will be going from 5pm-9pm on Wednesday, April 10th! Our CAA staff
+						will dress up like maids and butlers, and serve you Uji Time's amazing soft serve ice
+						cream and drinks! We'll chat, play some games, and have a great time! (By signing up to
+						come to the event, you’ll be entered into a raffle with a chance to win a special gift
+						card!)
+					</div>
+					<div class=" gap-4 my-8">
+						<a
+							class="btn btn-secondary text-3x1 btn-wide
+							"
+							href="https://docs.google.com/forms/d/e/1FAIpQLSf5UBOkuuQxYxE_-M0IP9SXh1b8GCOHCechI9-9P2Sq6VtIeg/viewform?usp=sf_link"
+							>RSVP Here</a
+						>
 					</div>
 				</div>
 			</div>
@@ -38,36 +64,13 @@ Besides having my full attention for an hour, each ticket comes with $10 worth o
 	</div>
 </div>
 
-<div class="flex flex-col items-center">
-	<div class="w-4/6">
-		<div class=" carousel w-full">
-			<div id="item1" class="carousel-item w-full">
-				<img
-					src="https://cdn.discordapp.com/attachments/1157046777023844374/1222612058239930481/Menu_1.png?ex=6616d935&is=66046435&hm=331ccfe1c04cc6e673f51bbda25d135bdae57181152cd0b6cdb840463bbb394a&"
-					class="w-full"
-				/>
-			</div>
-			<div id="item2" class="carousel-item w-full">
-				<img
-					src="https://cdn.discordapp.com/attachments/1157046777023844374/1222612058898563185/Menu_2.png?ex=6616d935&is=66046435&hm=f021f84f94385315b84037e1f1996fdd0a75082a6bce182ea02f56c52b813352&"
-					class="w-full"
-				/>
-			</div>
-		</div>
-
-		<div class="flex justify-center w-full py-2 gap-2">
-			<a href="#item1" class="btn btn-xs">1</a>
-			<a href="#item2" class="btn btn-xs">2</a>
-		</div>
-	</div>
-</div>
-
 <div class="divider"></div>
-<img
+
+<!-- <img
 	src="https://zadogzmdjzggyvvvgank.supabase.co/storage/v1/object/public/images/maid.jpeg"
 	alt="artmart"
 	class="rounded-box w-10/12"
-/>
+/> -->
 
 <!-- <div class="grid flex-grow card bg-base-300 rounded-box p-8">
 	<div class="text-2xl font-extrabold">Who are the artists?</div>
@@ -77,6 +80,6 @@ Besides having my full attention for an hour, each ticket comes with $10 worth o
 
 <style>
 	.hero {
-		background-image: url(https://zadogzmdjzggyvvvgank.supabase.co/storage/v1/object/public/images/classroom.jpg);
+		background-image: url(https://zadogzmdjzggyvvvgank.supabase.co/storage/v1/object/public/images/crop2.jpg?t=2024-03-31T23%3A43%3A11.309Z);
 	}
 </style>
