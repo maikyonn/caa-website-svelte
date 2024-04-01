@@ -4,8 +4,6 @@
 	export let data: PageData;
 </script>
 
-<html data-theme="cupcake"></html>
-
 <div class="hero min-h-full w-full">
 	<div class="hero-overlay bg-opacity-60"></div>
 	<div class="hero-content text-center py-8 w-full h-full">

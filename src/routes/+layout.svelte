@@ -10,7 +10,7 @@
 		<a class=" btn btn-ghost font-bold text-3xl title" href="/"
 			><div class="hidden lg:block">Cal Animage Alpha</div>
 			<div class="sm:block md:block lg:hidden">CAA</div>
-			<img class="logo" src="/bwcallogo.svg" /></a
+			<img class="logo" src="/bwcallogo.svg" alt="logo" /></a
 		>
 
 		<!-- Menu for mobile -->
@@ -47,13 +47,9 @@
 					<i class="fa-solid fa-chevron-down"></i>
 				</button>
 
-				<ul
-					tabindex="0"
-					class="dropdown-content menu z-[1] bg-base-200 p-6 rounded-box shadow w-56 gap-2"
-				>
+				<ul class="dropdown-content menu z-[1] bg-base-200 p-6 rounded-box shadow w-56 gap-2">
 					<li><a href="artmart">Art Mart</a></li>
 					<li><a href="https://cal.moe/animedestiny">Anime Destiny</a></li>
-					<li><a>About</a></li>
 				</ul>
 			</div>
 		</div>
@@ -64,13 +60,13 @@
 
 <footer class="footer p-10 bg-neutral text-neutral-content">
 	<aside>
-		<img class="logo-light" src="/bwcallogo.svg" />
+		<img class="logo-light" src="/bwcallogo.svg" alt="logo" />
 		<p>Cal Animage Alpha<br />UC Berkeley's Anime Club since 1992</p>
 	</aside>
 	<nav>
 		<h6 class="footer-title">Social</h6>
 		<div class="grid grid-flow-col gap-4">
-			<a
+			<a href="/"
 				><svg
 					xmlns="http://www.w3.org/2000/svg"
 					width="24"
@@ -82,7 +78,7 @@
 					></path></svg
 				></a
 			>
-			<a
+			<a href="/"
 				><svg
 					xmlns="http://www.w3.org/2000/svg"
 					width="24"
@@ -94,7 +90,7 @@
 					></path></svg
 				></a
 			>
-			<a
+			<a href="/"
 				><svg
 					xmlns="http://www.w3.org/2000/svg"
 					width="24"
