@@ -16,15 +16,17 @@
 		<!-- Menu for mobile -->
 		<div class="dropdown dropdown-end sm:hidden">
 			<button class="btn btn-ghost">
-				<i class="fa-solid fa-bars text-lg"><Icon icon="humbleicons:bars" /></i>
+				<Icon icon="humbleicons:bars" />
 			</button>
 
-			<ul class="dropdown-content menu z-[1] bg-base-200 p-4 rounded-box shadow w-64 gap-2">
+			<ul class="dropdown-content menu bg-base-200 p-4 rounded-box shadow w-64 gap-2">
 				<li><a href="/cafe">Maid Cafe</a></li>
 				<li><a href="https://issuu.com/konshuu-caa">Konshuu</a></li>
 				<li><a href="artmart">Art Mart</a></li>
 				<li><a href="https://cal.moe/animedestiny">Anime Destiny</a></li>
 			</ul>
+
+			<a href="/cafe">Maid Cafe</a>
 		</div>
 
 		<!-- Menu for desktop -->
@@ -42,9 +44,7 @@
 			<!-- Dropdown menu -->
 			<div class="dropdown dropdown-end">
 				<button class="btn btn-ghost btn-sm">
-					<i class="fa-solid fa-fire text-secondary"></i>
 					<Icon icon="humbleicons:bars" />
-					<i class="fa-solid fa-chevron-down"></i>
 				</button>
 
 				<ul class="dropdown-content menu z-[1] bg-base-200 p-6 rounded-box shadow w-56 gap-2">
