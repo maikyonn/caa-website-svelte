@@ -73,7 +73,10 @@
 
 							<span>
 								Unlike typical Uji Time operations where service is primarily self-serve at a kiosk,
-								the Maid Cafe event will feel more like a restaurant, where a maid/butler will take
+								the Maid Cafe event will feel more like a restaurant, where a maid/butler will walk
+								you to your table, chat with you, take your order, and bring you your food and
+								drinks! From there, the maids/butlers will stay at your table where you can chat,
+								play games, and have fun!
 							</span>
 						</div>
 
