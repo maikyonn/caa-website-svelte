@@ -10,7 +10,7 @@
 		<div class="">
 			<div class="flex flex-col items-center justify-center w-full">
 				<h1 class="text-8xl font-bold text-secondary py-6">CAA Maid Cafe 2024</h1>
-				<div class="card bg-white rounded-box p-8 bg-opacity-80">
+				<div class="card bg-white rounded-box p-8 bg-opacity-80 my-8">
 					<div class="text-4xl font-extrabold">What is the CAA Maid Cafe? ~★</div>
 					<div class="flex flex-col items-center my-8">
 						<div class="w-5/6">
@@ -55,6 +55,65 @@
 							href="https://docs.google.com/forms/d/e/1FAIpQLSf5UBOkuuQxYxE_-M0IP9SXh1b8GCOHCechI9-9P2Sq6VtIeg/viewform?usp=sf_link"
 							>RSVP Here</a
 						>
+					</div>
+				</div>
+				<div class="card bg-white rounded-box p-12 bg-opacity-80 my-8">
+					<h1 class="text-3xl font-bold mb-8">
+						<i class="fa-solid fa-circle-question text-primary"></i>
+						Frequently Asked Questions
+					</h1>
+
+					<!-- Questions -->
+					<div class="grid grid-cols-1 sm:grid-cols-2 gap-8">
+						<!-- Question -->
+						<div class="flex flex-col gap-2">
+							<h2 class="font-medium text-lg italic text-secondary">
+								How does the maid cafe work?
+							</h2>
+
+							<span>
+								Unlike typical Uji Time operations where service is primarily self-serve at a kiosk,
+								the Maid Cafe event will feel more like a restaurant, where a maid/butler will take
+							</span>
+						</div>
+
+						<div class="flex flex-col gap-2">
+							<h2 class="font-medium text-lg italic text-secondary">
+								Does the maid services cost any extra?
+							</h2>
+
+							<span>
+								No, the maid services are free of charge! The food and drinks will be at their
+								regular price. However, we will be offering our own merchandise and other
+								collectibles!
+							</span>
+						</div>
+
+						<!-- Question -->
+						<div class="flex flex-col gap-2">
+							<h2 class="font-medium text-lg italic text-secondary">
+								Is it possible to volunteer to be a maid/butler?
+							</h2>
+
+							<span>
+								Unfortunately you must be a CAA Officer in order to be eligible to volunteer as a
+								maid/butler. Officer applications open at the beginning of every semester!
+							</span>
+						</div>
+
+						<!-- Question -->
+						<div class="flex flex-col">
+							<h2 class="font-medium text-lg italic text-secondary">
+								Is walk-in avaliable? Do I have to RSVP?
+							</h2>
+
+							<span>
+								Yes walk-ins will be accepted. However, those who RSVP may be given priority if the
+								event is at capacity, so it is encouraged to RSVP if you can! RSVP'ing is
+								non-binding and free! (Historically, the maid cafe has always been at capacity, so
+								RSVPing is highly recommended!)
+							</span>
+						</div>
 					</div>
 				</div>
 			</div>
