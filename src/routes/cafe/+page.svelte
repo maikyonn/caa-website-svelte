@@ -140,6 +140,6 @@
 
 <style>
 	.hero {
-		background-image: url(https://zadogzmdjzggyvvvgank.supabase.co/storage/v1/object/public/images/crop2.jpg?t=2024-03-31T23%3A43%3A11.309Z);
+		background-image: url(https://zadogzmdjzggyvvvgank.supabase.co/storage/v1/object/public/images/maidcafecropv2.png?t=2024-04-03T15%3A46%3A36.020Z);
 	}
 </style>
