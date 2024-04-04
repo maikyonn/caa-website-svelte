@@ -1,6 +1,7 @@
 <script>
 	import '../app.css';
 	import Icon from '@iconify/svelte';
+	import { inject } from '@vercel/analytics';
 </script>
 
 <div class="global">
