@@ -2,6 +2,8 @@
 	import '../app.css';
 	import Icon from '@iconify/svelte';
 	import { inject } from '@vercel/analytics';
+
+	inject();
 </script>
 
 <div class="global">
@@ -32,15 +34,9 @@
 
 		<!-- Menu for desktop -->
 		<div class="hidden sm:flex gap-2">
-			<a class="btn btn-ghost btn-sm" href="/cafe">
-				<i class="fa-solid fa-circle-info text-secondary"></i>
-				Maid Cafe
-			</a>
+			<a class="btn btn-ghost btn-sm" href="/cafe"> Maid Cafe </a>
 
-			<a class="btn btn-ghost btn-sm" href="https://issuu.com/konshuu-caa">
-				<i class="fa-solid fa-users text-secondary"></i>
-				Konshuu
-			</a>
+			<a class="btn btn-ghost btn-sm" href="https://issuu.com/konshuu-caa"> Konshuu </a>
 
 			<!-- Dropdown menu -->
 			<div class="dropdown dropdown-end">
@@ -105,15 +101,6 @@
 			>
 		</div>
 	</nav>
-
-	<iframe
-		src="https://discord.com/widget?id=424393596465184768&theme=dark"
-		width="auto"
-		height="auto"
-		allowtransparency="true"
-		frameborder="0"
-		sandbox="allow-popups allow-popups-to-escape-sandbox allow-same-origin allow-scripts"
-	></iframe>
 </footer>
 
 <style>

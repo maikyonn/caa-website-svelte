@@ -58,10 +58,7 @@
 					</div>
 				</div>
 				<div class="card bg-white rounded-box p-12 bg-opacity-80 my-8">
-					<h1 class="text-3xl font-bold mb-8">
-						<i class="fa-solid fa-circle-question text-primary"></i>
-						Frequently Asked Questions
-					</h1>
+					<h1 class="text-3xl font-bold mb-8">Frequently Asked Questions</h1>
 
 					<!-- Questions -->
 					<div class="grid grid-cols-1 sm:grid-cols-2 gap-8">

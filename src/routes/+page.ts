@@ -4,8 +4,6 @@ import moment from 'moment';
 export async function load() {
 	let { data: club_meetings, error } = await supabase.from('club_meetings').select('*');
 
-	console.log('debug:');
-	console.log(club_meetings);
 	for (const meeting of club_meetings) {
 		club_meetings[club_meetings.indexOf(meeting)].timeTillNow = moment(meeting.time).diff(moment());
 		club_meetings[club_meetings.indexOf(meeting)].time = moment(meeting.time).format(

@@ -4,7 +4,6 @@
 	import Icon from '@iconify/svelte';
 
 	export let data;
-	console.log(data.meetings_info);
 </script>
 
 <div class="flex justify-center my-8">
@@ -103,10 +102,7 @@
 
 <div class="divider"></div>
 <div class="flex flex-col items-center gap-10 p-6">
-	<h1 class="text-3xl font-bold">
-		<i class="fa-solid fa-circle-question text-primary"></i>
-		Frequently Asked Questions
-	</h1>
+	<h1 class="text-3xl font-bold">Frequently Asked Questions</h1>
 
 	<!-- Questions -->
 	<div class="grid grid-cols-1 sm:grid-cols-2 gap-8">
