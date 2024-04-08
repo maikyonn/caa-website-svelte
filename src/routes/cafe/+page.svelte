@@ -9,7 +9,7 @@
 	<div class="hero-content text-center py-8 w-full h-full">
 		<div class="">
 			<div class="flex flex-col items-center justify-center w-full">
-				<h1 class="text-8xl font-bold text-secondary py-6">CAA Maid Cafe 2024</h1>
+				<!-- <h1 class="text-8xl font-bold text-secondary py-6">CAA Maid Cafe 2024</h1> -->
 				<div class="card bg-white rounded-box p-8 bg-opacity-80 my-8">
 					<div class="text-4xl font-extrabold">What is the CAA Maid Cafe? ~★</div>
 					<div class="flex flex-col items-center my-8">
